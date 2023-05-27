@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <Users>
+    <User UserId="1" Role="Admin" Username="administrator" Password="admin1"></User>
+    <User UserId="2" Role="User" Username="bob" Password="userBob"></User>
+    <User UserId="3" Role="User" Username="alice" Password="userAlice"></User>
+  </Users>
+  <Books>
+    <Book BookId="1" Title="Harry Potter" AuthorName="J.K." AuthorSurname="Rolling in the deep" Publisher="England" Quantity="3" />
+    <Book BookId="2" Title="Maze Runner" AuthorName="J.K." AuthorSurname="Rolwing" Publisher="Pompei's empire" Quantity="8" />
+    <Book BookId="3" Title="Lord of the rings" AuthorName="J.R.R" AuthorSurname="Toiken" Publisher="England" Quantity="2" />
+    <Book BookId="4" Title="Theives of the King" AuthorName="J.R.R" AuthorSurname="Toiken" Publisher="Penguins" Quantity="1" />
+  </Books>
+  <Reservations>
+    <Reservation ReservationId="1" UserId="2" BookId="1" StartDate="12/30/2022 12:00:00 AM" EndDate="3/1/2023 12:00:00 AM">
+      <Reservation ReservationId="10" UserId="2" BookId="2" StartDate="1/31/2023 12:00:00 AM" EndDate="3/2/2023 12:00:00 AM" />
+    </Reservation>
+    <Reservation ReservationId="7" UserId="3" BookId="1" StartDate="1/31/2023 12:00:00 AM" EndDate="3/2/2023 12:00:00 AM" />
+    <Reservation ReservationId="6" UserId="1" BookId="1" StartDate="1/31/2023 12:00:00 AM" EndDate="3/2/2023 12:00:00 AM" />
+    <Reservation ReservationId="3" UserId="3" BookId="4" StartDate="1/17/2023 12:00:00 AM" EndDate="1/26/2023 12:00:00 AM" />
+    <Reservation ReservationId="9" UserId="1" BookId="3" StartDate="1/17/2023 12:00:00 AM" EndDate="5/26/2023 12:00:00 AM" />
+    <Reservation ReservationId="3" UserId="1" BookId="3" StartDate="1/17/2023 12:00:00 AM" EndDate="9/26/2023 12:00:00 AM" />
+  </Reservations>
+</Library>
